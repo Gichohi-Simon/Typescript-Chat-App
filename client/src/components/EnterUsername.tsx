@@ -6,6 +6,9 @@ const EnterUsername = (props: {handleConnection: Function, username: string, set
             e.preventDefault();
             props.handleConnection();
         }}>
+            <div>
+                <h1>Student Leaders Chat Platform</h1>
+            </div>
             <input 
                 type="text" 
                 value={props.username} 
