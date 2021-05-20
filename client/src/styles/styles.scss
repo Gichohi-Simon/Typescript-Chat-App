@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 // Variables
-$primary-color: #5063c7;
+$primary-color: #00ACEE;
 $secondary-color: #f9f9f9;
-$lighter-blue-color: #6579dd;
+$lighter-blue-color: #00ACEE;
 $roboto: 'Roboto', sans-serif;
 
 // Global Styles
@@ -19,11 +19,15 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background-color: #ffffff;
+    background-image: url("./Shape\ 2.svg");
+    background-attachment: fixed;
 }
 
 button{
     cursor: pointer;
     border: none;
+    border-radius: 15px;
     outline: none;
     transition: background-color 250ms ease;
 }
@@ -31,6 +35,7 @@ button{
 input{
     border: 1px solid #333;
     outline: none;
+    border-radius: 15px;
 }
 
 ul{

@@ -7,7 +7,7 @@ const EnterUsername = (props: {handleConnection: Function, username: string, set
             props.handleConnection();
         }}>
             <div>
-                <h1>Student Leaders Chat Platform</h1>
+                <h1 style = {{fontSize:"60px", margin:'20px', color:'SkyBlue', fontWeight:'bold'}}>Student Leaders Chat Platform</h1>
             </div>
             <input 
                 type="text" 
